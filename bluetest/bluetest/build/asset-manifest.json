@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1b05096.chunk.css",
-    "main.js": "/static/js/main.d3d7954c.chunk.js",
-    "main.js.map": "/static/js/main.d3d7954c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cad31aca.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cad31aca.js.map",
-    "static/js/2.c24d971e.chunk.js": "/static/js/2.c24d971e.chunk.js",
-    "static/js/2.c24d971e.chunk.js.map": "/static/js/2.c24d971e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6bccf3018714d718c7a1135e22ab2a55.js": "/precache-manifest.6bccf3018714d718c7a1135e22ab2a55.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.c24d971e.chunk.js.LICENSE.txt": "/static/js/2.c24d971e.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/bluetest/bluetest/build/static/css/main.d1b05096.chunk.css",
+    "main.js": "/bluetest/bluetest/build/static/js/main.b1f7b985.chunk.js",
+    "main.js.map": "/bluetest/bluetest/build/static/js/main.b1f7b985.chunk.js.map",
+    "runtime-main.js": "/bluetest/bluetest/build/static/js/runtime-main.1cb5ae09.js",
+    "runtime-main.js.map": "/bluetest/bluetest/build/static/js/runtime-main.1cb5ae09.js.map",
+    "static/js/2.c24d971e.chunk.js": "/bluetest/bluetest/build/static/js/2.c24d971e.chunk.js",
+    "static/js/2.c24d971e.chunk.js.map": "/bluetest/bluetest/build/static/js/2.c24d971e.chunk.js.map",
+    "index.html": "/bluetest/bluetest/build/index.html",
+    "precache-manifest.739f20746326b3e2f65179d7209fe4de.js": "/bluetest/bluetest/build/precache-manifest.739f20746326b3e2f65179d7209fe4de.js",
+    "service-worker.js": "/bluetest/bluetest/build/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/bluetest/bluetest/build/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.c24d971e.chunk.js.LICENSE.txt": "/bluetest/bluetest/build/static/js/2.c24d971e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/bluetest/bluetest/build/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cad31aca.js",
+    "static/js/runtime-main.1cb5ae09.js",
     "static/js/2.c24d971e.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.d3d7954c.chunk.js"
+    "static/js/main.b1f7b985.chunk.js"
   ]
 }
