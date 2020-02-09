@@ -6,7 +6,11 @@ function App() {
   function connectBluetooth() {
     navigator.bluetooth
       .requestDevice({
-        filters: [{ name: "LG" }, { namePrefix: "Prefix" }]
+        //acceptAllDevices: true
+        filters: [
+          //{ name: "LG" },
+          { namePrefix: "Jang" }
+        ]
       })
       .then(device => console.log(device))
       .catch(error => {
