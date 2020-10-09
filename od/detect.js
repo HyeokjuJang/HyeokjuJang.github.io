@@ -108,7 +108,7 @@ class App extends React.Component {
         );
 
       // define a Promise that'll be used to load the model
-      const loadlModelPromise = cocoSsd.load();
+      const loadlModelPromise = mobilenet.load();
 
       // resolve all the Promises
       Promise.all([loadlModelPromise, webcamPromise])
