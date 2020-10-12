@@ -33,6 +33,19 @@ class App extends React.Component {
     );
   };
 
+  handlePrint(event) {
+    event.preventDefault();
+    const server = "http://localhost:4000" ;
+    console.log(this.videoRef.current.srcObject)
+    axios.post(`${server}/print`, { "image": this.videoRef.current.srcObject })
+      .then(function (response) {
+        alert(response.data.status)
+      })
+      .catch(function (error) {
+        alert(error)
+      });
+  }
+
   showDetections = (predictions) => {
     const ctx = this.canvasRef.current.getContext("2d");
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
@@ -128,6 +141,7 @@ class App extends React.Component {
       <div>
         <video style={this.styles} autoPlay muted playsInline ref={this.videoRef} width={window.innerWidth} height={parseInt((window.innerWidth * 3.0) / 4.0)} />
         <canvas style={this.canvasStyles} ref={this.canvasRef} width={window.innerWidth} height={parseInt((window.innerWidth * 3.0) / 4.0) + 100} />
+        <button onClick={e=>this.handlePrint(e)}>인쇄</button>
       </div>
     );
   }
@@ -135,3 +149,4 @@ class App extends React.Component {
 
 const domContainer = document.querySelector("#root");
 ReactDOM.render(React.createElement(App), domContainer);
+
