@@ -35,14 +35,20 @@ class App extends React.Component {
 
   handlePrint(event) {
     event.preventDefault();
-    const server = "http://localhost:4000" ;
-    console.log(this.videoRef.current.srcObject)
-    axios.post(`${server}/print`, { "image": this.videoRef.current.srcObject })
+    const server = "http://localhost:4000";
+    var canvas = document.createElement("canvas");
+
+    canvas.width = 500;
+    canvas.height = parseInt(parseFloat(500.0 / parseFloat(this.videoWidth)) * this.videoHeight);
+    canvas.getContext("2d").drawImage(this.videoRef.current, 0, 0, canvas.width, canvas.height);
+
+    axios
+      .post(`${server}/print`, { image: canvas.toDataURL() })
       .then(function (response) {
-        alert(response.data.status)
+        alert(response.data.status);
       })
       .catch(function (error) {
-        alert(error)
+        alert(error);
       });
   }
 
@@ -100,7 +106,10 @@ class App extends React.Component {
             window.stream = stream;
             // pass the stream to the videoRef
             this.videoRef.current.srcObject = stream;
-            if ((parseFloat(window.innerWidth) / parseFloat(this.videoRef.current.clientWidth)) * parseFloat(this.videoRef.current.clientHeight) > window.innerHeight) {
+            if (
+              (parseFloat(window.innerWidth) / parseFloat(this.videoRef.current.clientWidth)) * parseFloat(this.videoRef.current.clientHeight) >
+              window.innerHeight
+            ) {
               this.videoWidth = (window.innerHeight / parseFloat(this.videoRef.current.clientHeight)) * parseFloat(this.videoRef.current.clientWidth);
               this.videoHeight = window.innerHeight;
             } else {
@@ -139,9 +148,22 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <video style={this.styles} autoPlay muted playsInline ref={this.videoRef} width={window.innerWidth} height={parseInt((window.innerWidth * 3.0) / 4.0)} />
-        <canvas style={this.canvasStyles} ref={this.canvasRef} width={window.innerWidth} height={parseInt((window.innerWidth * 3.0) / 4.0) + 100} />
-        <button onClick={e=>this.handlePrint(e)}>인쇄</button>
+        <video
+          style={this.styles}
+          autoPlay
+          muted
+          playsInline
+          ref={this.videoRef}
+          width={window.innerWidth}
+          height={parseInt((window.innerWidth * 3.0) / 4.0)}
+        />
+        <canvas
+          style={this.canvasStyles}
+          onClick={(e) => this.handlePrint(e)}
+          ref={this.canvasRef}
+          width={window.innerWidth}
+          height={parseInt((window.innerWidth * 3.0) / 4.0) + 100}
+        />
       </div>
     );
   }
@@ -149,4 +171,3 @@ class App extends React.Component {
 
 const domContainer = document.querySelector("#root");
 ReactDOM.render(React.createElement(App), domContainer);
-
