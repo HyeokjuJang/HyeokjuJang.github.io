@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="343" height="56" viewBox="0 0 343 56">
-    <g>
-        <path fill="#dedede" d="M27.905 0h287.19a28 28 0 0 1 0 56H27.905a28 28 0 0 1 0-56z" transform="translate(-879 -727) translate(879 727)"/>
-        <text fill="#fff" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="20px" font-weight="700" letter-spacing="-0.024em" transform="translate(-879 -727) translate(1051 763)">
-            <tspan x="-40.31" y="0">WiFi </tspan><tspan y="0">설정중...</tspan>
-        </text>
-    </g>
-</svg>
