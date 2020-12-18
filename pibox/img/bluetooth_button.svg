@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="343" height="56" viewBox="0 0 343 56">
+    <g>
+        <g transform="translate(-789 -726.5) translate(789 726.5)">
+            <rect width="343" height="56" fill="#004b9b" rx="28"/>
+            <text fill="#fff" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="20px" font-weight="700" letter-spacing="-0.024em" transform="translate(172 34)">
+                <tspan x="-75.86" y="0">Bluetooth</tspan><tspan y="0">로 찾기</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

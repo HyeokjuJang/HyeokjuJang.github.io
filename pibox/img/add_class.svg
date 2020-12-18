@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="93.469" viewBox="0 0 55 93.469">
+  <g id="클래스_추가" data-name="클래스 추가" transform="translate(-845 -1517.531)">
+    <g id="클래스_추가_아이콘" data-name="클래스 추가 아이콘" transform="translate(12 58)">
+      <circle id="타원_11" data-name="타원 11" cx="27.5" cy="27.5" r="27.5" transform="translate(833 1498)" fill="#e5e5e5" opacity="0.997"/>
+      <path id="Icon-plus" d="M23.214,12.071H15.179V4.036A1.786,1.786,0,0,0,13.393,2.25H11.607A1.786,1.786,0,0,0,9.821,4.036v8.036H1.786A1.786,1.786,0,0,0,0,13.857v1.786a1.786,1.786,0,0,0,1.786,1.786H9.821v8.036a1.786,1.786,0,0,0,1.786,1.786h1.786a1.786,1.786,0,0,0,1.786-1.786V17.429h8.036A1.786,1.786,0,0,0,25,15.643V13.857A1.786,1.786,0,0,0,23.214,12.071Z" transform="translate(848 1510.75)"/>
+    </g>
+    <text id="Class" transform="translate(873 1532.531)" font-size="20" font-family="Helvetica" letter-spacing="-0.024em"><tspan x="-24.045" y="0">Class</tspan></text>
+  </g>
+</svg>
