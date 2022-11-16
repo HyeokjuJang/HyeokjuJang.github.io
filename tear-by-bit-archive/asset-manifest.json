@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d366113.css",
+    "main.js": "/static/js/main.724a6cce.js",
+    "static/js/787.8978fcf0.chunk.js": "/static/js/787.8978fcf0.chunk.js",
+    "static/media/GowunBatang-Regular.ttf": "/static/media/GowunBatang-Regular.5bb8c474edafaa216ee7.ttf",
+    "static/media/NotoSerifKR-ExtraLight.otf": "/static/media/NotoSerifKR-ExtraLight.de7b7a526c4b9c335b13.otf",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.6d366113.css.map": "/static/css/main.6d366113.css.map",
+    "main.724a6cce.js.map": "/static/js/main.724a6cce.js.map",
+    "787.8978fcf0.chunk.js.map": "/static/js/787.8978fcf0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d366113.css",
+    "static/js/main.724a6cce.js"
+  ]
+}
