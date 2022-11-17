@@ -11240,7 +11240,7 @@
                             check: d,
                           };
                           Ve.post(
-                            "https://lah3cxq7cl.execute-api.ap-northeast-2.amazonaws.com/dev/",
+                            "https://lrcpokjvad.execute-api.ap-northeast-2.amazonaws.com",
                             n,
                             { "Content-Type": "application/json" }
                           )
